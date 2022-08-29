@@ -2803,7 +2803,6 @@ C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Payme
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Privacy.cshtml.g.cs
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Success.cshtml.g.cs
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Privacy\Index.cshtml.g.cs
-C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUser.cshtml.g.cs
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PaymentLayout.cshtml.g.cs
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -2823,3 +2822,4 @@ C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\LimakAz.csproj.Co
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\LimakAz.dll
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\LimakAz.pdb
 C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\LimakAz.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\FinalPro\LimakAz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

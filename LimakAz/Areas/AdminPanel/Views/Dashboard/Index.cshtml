@@ -16,9 +16,6 @@
                         </div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.Orders.Where(x => x.Status == LimakAz.Models.Enums.OrderStatus.Anbarda).Sum(x => x.Price) ₼</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-calendar fa-2x text-gray-300" style="color: #0033C8;"></i>
-                    </div>
                 </div>
             </div>
         </div>
@@ -33,9 +30,6 @@
                         </div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">@((Model.Orders.Where(x => x.Status == LimakAz.Models.Enums.OrderStatus.Anbarda).Sum(x => x.Price) * 20)/100) ₼</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-dollar-sign fa-2x text-gray-300" style="color: #00D284"></i>
-                    </div>
                 </div>
             </div>
         </div>
@@ -49,9 +43,6 @@
                             <a asp-action="index" asp-controller="order" style="color: #f6c23e !important;">Pending Requests</a>
                         </div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.Orders.Where(x => x.Status == LimakAz.Models.Enums.OrderStatus.Gözləmədə).Count()</div>
-                    </div>
-                    <div class="col-auto">
-                        <i class="fas fa-clipboard-list fa-2x text-gray-300" style="color: #F6C476"></i>
                     </div>
                 </div>
             </div>

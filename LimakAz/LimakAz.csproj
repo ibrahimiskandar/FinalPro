@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Error\**" />
+    <Content Remove="Views\Error\**" />
+    <EmbeddedResource Remove="Views\Error\**" />
+    <None Remove="Views\Error\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Migrations\20220812201524_ContactLocationCreated.cs" />
     <Compile Remove="Migrations\20220812201524_ContactLocationCreated.Designer.cs" />
     <Compile Remove="Migrations\20220812201640_ContactLocationCreated.cs" />
@@ -2056,7 +2063,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Error\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
