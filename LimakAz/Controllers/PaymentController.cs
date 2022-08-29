@@ -31,7 +31,7 @@ namespace LimakAz.Controllers
         {
             if (ModelState.IsValid)
             {
-                HttpContext.Session.SetInt32("Amount", Convert.ToInt32(balance.Amount));
+                HttpContext.Session.SetInt32("Amount", Convert.ToInt32(balance.Amount*100));
                 return View(balance);
             }
             return RedirectToAction("Index", "Balance", balance);
@@ -68,12 +68,12 @@ namespace LimakAz.Controllers
 
                 AppUser member = _userManager.Users.FirstOrDefault(x => x.UserName == User.Identity.Name);
                 payModel.Amount = HttpContext.Session.GetInt32("Amount");
-                member.Balance = member.Balance + Convert.ToInt32(payModel.Amount);
-                var increaseResult = await _userManager.UpdateAsync(member);
+                member.Balance = member.Balance + (Convert.ToInt32(payModel.Amount)*1.7);
                 var result = await ProcessPayment.PayAsync(payModel);
 
-                if (result == "Success"&& increaseResult.Succeeded)
+                if (result == "Success")
                 {
+                    await _userManager.UpdateAsync(member);
                     return RedirectToAction("Success");
                 }
                 else
