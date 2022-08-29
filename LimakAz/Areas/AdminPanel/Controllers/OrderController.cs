@@ -112,7 +112,7 @@ namespace LimakAz.Areas.AdminPanel.Controllers
             body = body.Replace("{{id}}", str);
 
 
-            _emailService.Send(order.AppUser.Email, "Sifarişiniz təstiq olundu.", body);
+            _emailService.Send(order.AppUser.Email, "Sifarişiniz təsdiq olundu.", body);
 
             return RedirectToAction("index", "order");
         }
