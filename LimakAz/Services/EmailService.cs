@@ -30,7 +30,7 @@ namespace LimakAz.Services
                 // send email
                 using var smtp = new SmtpClient();
                 smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-                smtp.Authenticate("limakkargoaz@gmail.com", "thjlmesvbvkozdwk");
+                smtp.Authenticate("limakkargoaz@gmail.com", "hlyggfdgufwoyanl");
                 smtp.Send(email);
                 smtp.Disconnect(true);
             }
